@@ -1,0 +1,43 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    background: linear-gradient(-45deg, #da13c9, #99e210,#3510db );
+}
+.container{
+    width: 320px;
+    margin: 120px auto;
+
+}
+table{
+    background:transparent;
+    width: 100%;
+
+}
+td{
+    border-radius: 20px;
+    width: 25%;
+}
+button{
+    color: #4e11f5;
+    background: black;
+    border: 5px solid  #4e11f5;
+    border-radius: 20px;
+    width: 100%;
+    height: 70px;
+    font-size: 24px;
+    border: none;
+}
+button:hover{
+    box-shadow: 0 2px 10px 0  #4e11f5 inset, 0 2px 10px 0  #4e11f5,
+                0 2px 10px 0  #4e11f5 inset, 0 2px 10px 0  #4e11f5;      
+    text-shadow: 0 0 5px  #4e11f5,  0 0 5px  #4e11f5; 
+}
+#inputlabel{
+    height: 100px;
+    font-size: 40px;
+    vertical-align: bottom;
+    text-align: right;
+    color: #4e11f5;
+    background-color:black;
+}
